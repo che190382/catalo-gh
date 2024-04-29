@@ -13,9 +13,7 @@
       "price": 60.00,
       "stock": 1,
       "images": [
-        "https://storage.aoc.com/assets/8585/AOC_C32G2AE_PV_FTL-large.png",
-        "https://storage.aoc.com/assets/8586/AOC_C32G2AE_PV_TOP-big.png",
-        "https://storage.aoc.com/assets/8587/AOC_C32G2AE_PV_BACK-big.png"
+        "images/NISSAN_515.jpeg"
       ],
       "description": "LB SUPER SILHOUETTE NISSAN SILVIA 515",
       "category": "NISSAN",
