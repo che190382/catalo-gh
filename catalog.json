@@ -23,20 +23,6 @@
         "hide": false
     },
     {
-      "name": "TOYOTA 1986 VAN",
-      "price": 25.00,
-      "stock": 1,
-      "images": [
-        "1986_Toyota_Van.jpeg"
-      ],
-      "description": "TOYOTA 1986 VAN",
-      "category": "Carros",
-      "details": {
-        "marca": "TOYOTA",
-        "modelo": "TOYOTA 1986 VAN"
-        "hide": false
-    },
-    {
       "name": "Teclado Logitech K120",
       "price": 750,
       "stock": 1,
