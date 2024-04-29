@@ -39,66 +39,6 @@
       "hide": false
     },
     {
-      "name": "RAM 2020 1500 REBEL",
-      "price": 45.00,
-      "stock": 1,
-      "images": [
-        "2020_Ram_1500_Rebel.jpeg"
-      ],
-      "description": "RAM 2020 1500 REBEL",
-      "category": "Carros",
-      "details": {
-        "marca": "RAM",
-        "modelo": "RAM 2020 1500 REBEL"
-        },
-      "hide": false
-    },
-    {
-      "name": "HONDA 1988 CR-X",
-      "price": 25.00,
-      "stock": 1,
-      "images": [
-        "88_Honda_CR-X.jpeg"
-      ],
-      "description": "HONDA 1988 CR-X",
-      "category": "Carros",
-      "details": {
-        "marca": "HONDA",
-        "modelo": "HONDA 1988 CR-X"
-        },
-      "hide": false
-    },
-    {
-      "name": "JEEP WRANGLER 2017",
-      "price": 60.00,
-      "stock": 1,
-      "images": [
-        "Jeep_Wrangler.jpeg"
-      ],
-      "description": "JEEP WRANGLER 2017",
-      "category": "Carros",
-      "details": {
-        "marca": "JEEP",
-        "modelo": "JEEP WRANGLER 2017"
-        },
-      "hide": false
-    },
-    {
-      "name": "CHEVY SILVERADO 1983",
-      "price": 60.00,
-      "stock": 1,
-      "images": [
-        "Silverado.jpeg"
-      ],
-      "description": "CHEVY SILVERADO 1983",
-      "category": "Carros",
-      "details": {
-        "marca": "CHEVROLET",
-        "modelo": "CHEVY SILVERADO 1983"
-        },
-      "hide": false
-    },
-    {
       "name": "Teclado Logitech K120",
       "price": 750,
       "stock": 1,
