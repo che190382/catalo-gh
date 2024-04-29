@@ -16,7 +16,7 @@
         "NISSAN_515.jpeg"
       ],
       "description": "LB SUPER SILHOUETTE NISSAN SILVIA 515",
-      "category": "Carros",
+      "brand": "Carros",
       "details": {
         "marca": "NISSAN",
         "modelo": "NISSAN SILVIA 515"
@@ -40,7 +40,7 @@
     },
     {
       "name": "Mouse Logitech G203",
-      "category": "Periféricos",
+      "brand": "Periféricos",
       "price": 500,
       "hide": false
     },
@@ -50,12 +50,12 @@
     },
     {
       "name": "Micrófono Blue Yeti",
-      "category": "Audio",
+      "brand": "Audio",
       "hide": false
     },
     {
       "name": "Impresora HP Deskjet 2135",
-      "category": "Impresoras",
+      "brand": "Impresoras",
       "hide": true
     }
   ]
