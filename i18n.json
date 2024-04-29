@@ -3,12 +3,12 @@
   "fallbackLocale": "es",
   "messages": {
     "en": {
-      "brand": "brand",
+      "categories": "Categories",
       "show-all": "Show all",
       "dark-mode": "Dark mode"
     },
     "es": {
-      "brand" "marcas",
+      "categories": "Categorías",
       "show-all": "Ver todos",
       "dark-mode": "Modo oscuro"
     }
