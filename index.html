@@ -156,8 +156,8 @@
               </div>
             </div>
             <div class="card-image has-text-centered">
-              <div v-if="!!product.images && product.images.length > 1">
-                <carousel :product-to-show="1" :wrap-around="true">
+              <div v-if="!!product.images && product.images.length > 0">
+                <carousel :product-to-show="1" :wrap-around="product.images.length > 1">
                   <slide v-for="image in product.images" :key="image">
                     <div class="carousel__item">
                       <img :src="parseImageURL(image)" :alt="product.name" :onerror="handleImageError" />
@@ -168,7 +168,7 @@
                   </template>
                 </carousel>
               </div>
-              <img v-else :src="parseImageURL(product.images)" :alt="product.name" :onerror="handleImageError" />
+              <img v-else :src="parseImageURL()" :alt="product.name" :onerror="handleImageError" />
             </div>
           </div>
         </div>
@@ -275,14 +275,6 @@
 
       // Methods
       const parseImageURL = (imageURL) => {
-        if (Array.isArray(imageURL)) {
-          if (imageURL.length > 0) {
-            imageURL = imageURL[0];
-          }
-          else {
-            imageURL = null;
-          }
-        }
         if (!imageURL) {
           if (catalog.value.useNotFoundImage) {
             return notFoundImage;
@@ -380,6 +372,11 @@
     border: 0.1em solid rgba(168, 168, 168, 0.5);
     background-color: rgba(227, 227, 227, 0.5) !important;
     border-radius: 50%;
+  }
+
+  .carousel__next--disabled,
+  .carousel__prev--disabled {
+    display: none;
   }
 </style>
 
